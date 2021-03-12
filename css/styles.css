@@ -218,6 +218,14 @@ button {
     margin-right: 30px;
 }
 
+.box {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
 /* ============= ЗАНЯТИЕ =============== */
 
 .section-occupation .container {
