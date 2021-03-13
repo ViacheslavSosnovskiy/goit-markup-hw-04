@@ -253,27 +253,26 @@ button {
 
 /* ============= Наша команда / svg  =============== */
 
-/* .box {
+.icon-list {
     display: flex;
-    background-position: center;
-} */
+    /* justify-content: space-between; */
+    padding-left: 32px;
+    padding-right: 32px;
+}
 
-
-/* .svg-icons {
-    fill: currentColor;
-} */
-
-.inst-list {
-    display: flex;
-} 
-
-.instagram-links {
-    
-    border: none;
-    color: #2a2a2a;
+.icon-list a {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background-color: teal;
+}
 
+.icon-list svg {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
 
 /* ============= Наша команда  =============== */
@@ -311,6 +310,7 @@ button {
 .team p {
     font-size: 16px;
     line-height: 1.18px;
+    margin-bottom: 16px;
 }
 
 .card {
