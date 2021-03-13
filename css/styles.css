@@ -256,8 +256,6 @@ button {
     justify-content: space-between;
     padding-left: 32px;
     padding-right: 32px;
-    justify-content: center;
-    align-items: center;
 }
 
 .icon-list a {
