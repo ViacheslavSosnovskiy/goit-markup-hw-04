@@ -256,6 +256,8 @@ button {
     justify-content: space-between;
     padding-left: 32px;
     padding-right: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-list a {
@@ -263,11 +265,19 @@ button {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: teal;
+
+    
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.icon-list > li:not(:last-child){
+    margin-right: 10px;
 }
 
 .icon-list svg {
-    margin: auto;
+
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
