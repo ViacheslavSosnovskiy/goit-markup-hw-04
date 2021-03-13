@@ -307,10 +307,12 @@ button {
     line-height: 1.18;
 }
 
-.team p {
-    font-size: 16px;
-    line-height: 1.18px;
+.team-list p {
     margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.18;
+    
 }
 
 .card {
