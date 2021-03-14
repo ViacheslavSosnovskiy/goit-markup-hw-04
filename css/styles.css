@@ -120,6 +120,21 @@ img {
     margin-right: 50px;
 }
 
+/*  svg / contact */
+
+.contacts-list .icons-link {
+    display: inline-flex;
+    margin-right: 10px;
+    color: #757575;
+}
+
+.contacts-list .icons-link:hover,
+.contacts-list .icons-link:focus {
+    fill:var(--accent-color);
+}
+
+
+
 /* ============== ХЕДЕР  ============== */
 
 .header{
@@ -139,10 +154,11 @@ img {
 /* ============= ГЕРОЙ =============== */
 
 .section-hero {
+    max-width: 1600px;
     background-color:#2F303A;
-    text-align: center;
     padding-top: 200px;
     padding-bottom: 210px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/герой/Img.jpg")
 }
 
 .section-hero h1 {
@@ -258,27 +274,36 @@ button {
     padding-right: 32px;
 }
 
-.icon-list a {
+.icon-link {
     display: inline-flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
 
-    
     justify-content: center;
     align-items: center;
-    background-color: var(--background);
+}
+
+    
+.icon-list:hover .icon-link,
+.icon-list:focus .icon-link {
+    background-color:var(--accent-color);
+}
+
+.icon-link:hover .svg-icons,
+.icon-link:focus .svg-icons {
+    fill: #fff;    
 }
 
 .icon-list > li:not(:last-child){
     margin-right: 10px;
 }
 
-.icon-list svg {
-
+.svg-icons {
+    fill: #AFB1B8;
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    
 }
 
 /* ============= Наша команда  =============== */
@@ -354,19 +379,27 @@ button {
     display: flex;
 }
 
-.clients-list .box-2 {
-    border: 1px solid #AFB1B8;
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8; 
     box-sizing: border-box;
     border-radius: 4px;
 }
+
 
 .clients-list .item:not(:last-child){
     margin-right: 30px;
 }
 
-.clients-list a:hover,
-.clients-list a:focus {
-    color:var(--accent-color);
+.clients-list div:hover,
+.clients-list div:focus {
+    fill:var(--accent-color);
 }
 
 /* ============== FOOTER ============== */
