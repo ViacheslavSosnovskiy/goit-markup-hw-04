@@ -275,7 +275,7 @@ button {
 
 .icon-list {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -291,16 +291,12 @@ button {
 
 .icon-link:hover .svg-icons,
 .icon-link:focus .svg-icons {
-    fill: #fff;    
+    fill: var(--primary-white-color);    
 }
 
-.icon-list:hover .icon-link,
-.icon-list:focus .icon-link {
+.item-icon:hover .icon-link,
+.item-icon:focus .icon-link {
     background-color:var(--accent-color);
-}
-
-.icon-list > li:not(:last-child){
-    margin-right: 10px;
 }
 
 /* ============= Наша команда  =============== */
@@ -344,7 +340,7 @@ button {
 }
 
 .card {
-    background: #FFFFFF;
+    background: var(--primary-white-color);
     border-radius: 0px 0px 4px 4px;
     box-shadow: var(--card-shadow);
     border-radius: 4px;
@@ -374,13 +370,13 @@ button {
 
 .clients-list {
     display: flex;
+    justify-content: space-between;
 }
 
-.box-2 {
+.item-clients {
     display: flex;
     justify-content: center;
     align-items: center;
-
 
     width: 170px;
     height: 90px;
@@ -389,14 +385,20 @@ button {
     border-radius: 4px;
 }
 
+.svg-logo {
+    fill: #AFB1B8;
+}
 
 .clients-list .item:not(:last-child){
     margin-right: 30px;
 }
 
-.clients-list div:hover,
-.clients-list div:focus {
-    fill:var(--accent-color);
+.item-clients:hover {
+    border-color:var(--accent-color);
+}
+
+.item-clients:hover .svg-logo {
+    fill: var(--accent-color);
 }
 
 /* ============== FOOTER ============== */
