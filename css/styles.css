@@ -409,6 +409,15 @@ button {
     background-color: #2F303A;
 }
 
+.footer-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-address {
+    margin-right: 70px;
+}
+
 .address {
     font-style:normal;
 
@@ -419,7 +428,7 @@ button {
 .address p { 
     color:var(--primary-white-color);
 
-    margin-top: 20px;  /* для лого*/
+    margin-top: 20px; /* for logo*/
     margin-bottom: 9px;
 }
 
