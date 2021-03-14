@@ -442,6 +442,38 @@ button {
     margin-bottom: 9px;
 }
 
+ /*  ПРИСОЕДИНЯЙТЕСЬ  */
+
+ .footer-social-list {
+     display: flex;
+ }
+
+.footer-social-list .social-item:not(:last-child){
+    margin-right: 10px;
+}
+
+.join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.icon-social {
+    fill:var(--primary-white-color);
+}
+
+.footer-social-list .social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-list .social-link:hover,
+.footer-social-list .social-link:focus {
+    background-color: var(--accent-color);
+}
+
+
 /* страничка портфолио*/
 
 
