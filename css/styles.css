@@ -234,16 +234,13 @@ button {
 
 .box {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 270px;
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-}
-
-.svg-icons {
-    
 }
 
 /* ============= ЗАНЯТИЕ =============== */
@@ -452,6 +449,7 @@ button {
 
  .footer-social-list {
      display: flex;
+     margin-top: 20px;  /* от присоединяйтесь*/
  }
 
 .footer-social-list .social-item:not(:last-child){
@@ -459,16 +457,13 @@ button {
 }
 
 .join {
-    margin-bottom: 20px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
     color: var(--primary-white-color);
 }
 
-.icon-social {
+.social-link .white{
     fill:var(--primary-white-color);
 }
 
@@ -577,6 +572,12 @@ button {
     background-color: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+}
+
+.works-list .item:hover,
+.works-list .item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 .section-works .container {
